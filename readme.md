@@ -37,7 +37,7 @@ cd <repository-directory>
 ```
 
 
-## Initialize the Project:##
+## Initialize the Project: ##
 ```bash 
 npm init -y
 ```
