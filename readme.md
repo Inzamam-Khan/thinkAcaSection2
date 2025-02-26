@@ -26,3 +26,28 @@
 **Fix**: Replaced the hardcoded "dummy_token" with a secure JWT token, generated using jwt.sign(). The token is signed with a secret key (JWT_SECRET) and includes the user's id and username as payload. The token is set to expire in 1 hour (expiresIn: '1h').
 
 **Reason**: A JWT provides a secure way to authenticate users by using a token that can be verified with a secret key. It is also more flexible and robust than a hardcoded dummy token, which has no real security.
+
+
+# Usage #
+
+## Clone the Repository ##
+ ```bash 
+ git clone <repository-url>
+cd <repository-directory>
+```
+
+
+## Initialize the Project:##
+```bash 
+npm init -y
+```
+## Install Required Dependencies ##
+```bash 
+npm install express bcrypt jsonwebtoken body-parser
+
+```
+
+## Run the Application ## 
+```bash 
+node server.js
+```
